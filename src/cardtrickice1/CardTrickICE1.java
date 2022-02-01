@@ -44,7 +44,7 @@ public class CardTrickICE1 {
         key.setValue(val);
         key.setSuits(suit);
         
-        card Luckycard =  new Card();
+        Card Luckycard =  new Card();
         Luckycard.setValue(8);
         Luckycard.setSuits("Diamond");
 
