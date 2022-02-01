@@ -44,8 +44,7 @@ public class Card
     public void setSuits(String suits) {
         this.suits = suits;
     }
-   //number
-    
-    //method for suits
-    
+  public String toString() {
+        return suits+ " " + value;
+    }    
 }
