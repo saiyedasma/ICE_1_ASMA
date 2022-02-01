@@ -43,6 +43,10 @@ public class CardTrickICE1 {
         Card key = new Card();
         key.setValue(val);
         key.setSuits(suit);
+        
+        card Luckycard =  new Card();
+        Luckycard.setValue(8);
+        Luckycard.setSuits("Diamond");
 
         boolean found = false;
         System.out.println("searching for : " + key );
